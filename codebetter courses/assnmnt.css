@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    height: 200px;
+
+    background-color: pink;
+}
+
+.main {
+    height: 300px;
+    background-color: antiquewhite;
+    display: flex;
+    margin-top: 2px;
+}
+
+.m1 {
+    height: 300px;
+    width: 25%;
+    background-color: skyblue;
+}
+
+.m2 {
+    height: 300px;
+    width: 25%;
+    background-color: pink;
+}
+
+.m3 {
+    height: 300px;
+    width: 25%;
+    background-color: pink;
+    margin-left: 2px;
+}
+
+.m4 {
+    height: 300px;
+    width: 25%;
+    background-color: skyblue;
+}
+
+.foot {
+    height: 140px;
+    background-color: rgb(60, 15, 102);
+    margin-top: 2px;
+}
