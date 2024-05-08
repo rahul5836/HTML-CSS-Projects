@@ -27,12 +27,18 @@ a {
 
 
 
+
 .icon {
     height: 35px;
     width: 35px;
     margin: 0 15px 0 0;
 }
 
+/* hover effecr */
+.icon:hover {
+    height: 40px;
+    width: 40px;
+}
 
 
 .top-mail-info {
@@ -82,6 +88,12 @@ a {
     font-weight: 700;
 }
 
+.enq-btn:hover {
+    background-color: pink;
+    color: black;
+    cursor: pointer;
+}
+
 .top2 {
     height: 250px;
     background-color: #ffe9ec;
@@ -113,6 +125,13 @@ a {
     margin-top: 15px;
 }
 
+/* hover effect */
+
+/* .logo:hover {
+    height: 80px;
+    width: 320px;
+} */
+
 /* .nav-ops {} */
 
 .menu {
@@ -129,6 +148,15 @@ li {
     font-weight: 400;
 }
 
+.menu a {
+    color: black;
+}
+
+.menu a:hover {
+    background-color: #fc4045;
+    padding: 5px;
+}
+
 .line {
     height: 44px;
     width: 100%;
@@ -141,6 +169,8 @@ li {
     font-size: 60px;
 
 }
+
+
 
 .Courses-head1 {
     color: #fc4045;
@@ -158,6 +188,11 @@ li {
     justify-content: center; */
 }
 
+.box1:hover {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: #fc4045;
+}
+
 .btn-v {
     height: 50px;
     width: 150px;
@@ -168,7 +203,13 @@ li {
     font-size: 15px;
 }
 
-
+.btn-v:hover {
+    height: 70px;
+    width: 180px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
 
 .box1 {}
 
@@ -179,6 +220,11 @@ li {
     justify-content: center;
     text-align: center;
     margin-top: 10px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.c-icon img:hover {
+    transform: rotate(180deg);
 }
 
 .row1 {
@@ -249,6 +295,12 @@ li {
     font-weight: 600;
 }
 
+.btn:hover {
+    background-color: pink;
+    color: black;
+    cursor: pointer;
+}
+
 
 .banner {
     height: 500px;
@@ -286,6 +338,11 @@ li {
     height: 20px;
     width: 20px;
 
+}
+
+.f-icon:hover {
+    height: 25px;
+    width: 25px;
 }
 
 .foot-mail {

@@ -73,11 +73,28 @@ a {
 
 .hm {
     color: #624dd6;
+
 }
+
+
 
 .abt {
     color: #51e29a;
+    position: relative;
 }
+
+.abt-down {
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    height: 200px;
+    width: 100px;
+}
+
+.abt:hover .abt-down {
+    display: block;
+}
+
 
 .ads {
     color: #dd4f75;
@@ -339,6 +356,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #624dd6;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .r1 a {
@@ -351,9 +371,13 @@ a {
     align-items: center;
     justify-content: center;
     font-weight: 600;
+
 }
 
-.r1 a: {}
+.r1 a:hover {
+    background-color: white;
+    color: black;
+}
 
 .chain {
     height: 663px;
@@ -365,6 +389,7 @@ a {
 
 .chain h2 {
     margin: 0 0 20px;
+    padding: 30px;
 }
 
 .yll-zig {

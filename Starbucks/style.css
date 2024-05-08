@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-1 {
+    background-image: url("img/antique-cafe-bg-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 1000px;
+    width: 100%;
+}
+
+
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 50px;
+
+}
+
+.menu ul li a {
+    font-size: 40px;
+    color: #e67a0f;
+
+
+
+}
+
+.menu {
+    text-align: end;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70px;
+
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    border-bottom: 4px solid #cc9966;
+}
+
+.long-cont {
+    height: 1275px;
+    width: 450px;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+
+.headg {
+    background-color: #000000;
+    opacity: 0.6;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 35px;
+}
+
+.headg p {
+    color: #cc9966;
+}
+
+.msg {
+    background-color: #000000;
+    opacity: 0.6;
+    margin-top: 15px;
+    padding: 50px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.msg p {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.msg a {
+    color: white;
+
+}
+
+.c-logo {
+    margin-top: 10px;
+    background-color: #000000;
+    opacity: 0.6;
+    text-align: center;
+    padding: 20px;
+    font-size: 27px;
+    width: 300px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+.c-logo i {
+    color: #cc9966;
+}
+
+.c-logo span {
+
+    color: #cc9966;
+}
+
+.bg-2 {
+    background-image: url("img/antique-cafe-bg-02.jpg");
+
+    height: 1000px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.head-1 {
+    background-color: rgba(255, 255, 255, 1);
+    width: 500px;
+    padding: 20px;
+    color: #544639;
+    border-radius: 10px;
+
+    top: 200px;
+}
+
+.box-1 {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: #544639;
+    height: 700px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+
+.itm-head {
+    color: #ffcc66;
+
+}
+
+.para {
+    color: white;
+}
+
+.item-1-txt,
+.item-1 {
+    margin-left: 20px;
+    line-height: 35px;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.item-1 img {
+    border-radius: 15px;
+}
+
+/* box-2 */
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #544639;
+    height: 700px;
+    width: 500px;
+    border-radius: 15px;
+
+}
+
+
+.itm-head {
+    color: #ffcc66;
+
+}
+
+.para {
+    color: white;
+}
+
+.item-2-txt,
+.item-2 {
+    margin-left: 20px;
+    line-height: 35px;
+    margin-top: 35px;
+    font-size: 20px;
+
+}
+
+.item-2 img {
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.para-2 {
+    color: white;
+    text-align: end;
+}
+
+.main {
+    margin-top: 80px;
+}
+
+
+
+.h-effect:hover {
+    box-shadow: 5px 5px 5px 5px black;
+    cursor: pointer;
+}
+
+.bg-3 {
+    background-image: url("img/antique-cafe-bg-03.jpg");
+    background-size: cover;
+    height: 1000px;
+    width: 1320px;
+}
+
+.about-out {
+    height: 480px;
+    width: 520px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 80px;
+    padding: 40px;
+}
+
+.about h2 {
+    font-size: 36px;
+    color: #006666;
+    margin-top: 20px;
+}
+
+.about p {
+    line-height: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.contact {
+    height: 70px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #006666;
+    margin-top: 45px;
+
+}
+
+
+
+
+.contact a {
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+
+.bg-4 {
+    background-image: url("img/antique-cafe-bg-04.jpg");
+    background-size: cover;
+    height: 900px;
+    width: 1320px;
+}
+
+.contact-us {
+    height: 596px;
+    width: 520px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 120px;
+}
+
+.form {
+    height: 596px;
+    width: 520px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 120px;
+}
+
+.bg-4-in {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#c-u {
+    color: #006666;
+    font-size: 30px;
+
+}
+
+.contact-us {
+    padding: 50px;
+}
+
+.contact-us p {
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 30px;
+}
+
+.email {
+    font-size: 21px;
+    line-height: 35px;
+
+}
+
+.email a {
+    color: #006666;
+}
+
+.btn {
+    height: 80px;
+    width: 440px;
+    background-color: #006666;
+    border: none;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #6fcece;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn span {
+    margin-left: 40px;
+}
+
+.inpt {
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid #cc9966;
+    font-size: 20px;
+    color: white;
+}
+
+.form-in {
+    padding: 20px;
+}
+
+.msg-2 {
+    background-color: transparent;
+    width: 100%;
+    height: 180px;
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid #cc9966;
+    font-size: 20px;
+    color: white;
+}
+
+.btn-2 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    /* margin-right: 0; */
+}
+
+.foot {
+    height: 92px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    color: white;
+    font-size: 20px;
+}
